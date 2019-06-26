@@ -1,0 +1,143 @@
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video,
+details,
+summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700");
+}
+body {
+  font-family: courier;
+}
+body {
+  width: 100%;
+}
+.logo {
+  padding-top: 10px;
+}
+.navbar li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding-right: 50px;
+}
+/* ul {
+  float: right;
+}*/
+.navbar li a {
+  color: #ff0099;
+  text-transform: uppercase;
+  font-size: 23px;
+  line-height: 60px;
+}
+nav {
+  background-color: #333333;
+  height: 70px;
+  overflow: hidden;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.separator {
+  font-size: 18px;
+  text-align: center;
+}
+main {
+  height: auto;
+  min-height: 100vh;
+  background-image: url(./assets/topography.png);
+  background-size: cover;
+  background-position: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  padding-top: 90px;
+  padding-bottom: 25px;
+}
+h2 {
+  color: #ff0099;
+  font-size: 40px;
+  padding-bottom: 18px;
+}
+p {
+  font-size: 25px;
+  padding-bottom: 80px;
+  font-family: Montserrat;
+}
+
+/* 
+1. Float-right az ul-en kell legyen, nem pedig a liken
+2. Meg kell foreditani a liket /done
+3. nav ne legzen fix szelessegu
+4. padding-left es right 10% a navrra /done
+5. az img-t kell vertikalisan kozepre rakni 
+*/

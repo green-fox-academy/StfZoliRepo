@@ -1,0 +1,38 @@
+header {
+  font-size: 40px;
+  background-color: azure;
+  margin: 0;
+  padding-left: 10%;
+}
+body {
+  background-color: darkgray;
+}
+.newp {
+  margin: 0;
+  padding-left: 10%;
+}
+.button {
+  position: relative;
+  top: 30px;
+  left: -90px;
+}
+.boxed {
+  border: 2px solid white;
+  width: 800px;
+  padding: 10px;
+}
+h4 {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.posts {
+  padding-left: 10%;
+}
+h5 {
+  font-size: 20px;
+}
+.postboxed {
+  border: 2px solid white;
+  width: 800px;
+  padding: 10px;
+}
