@@ -17,7 +17,6 @@ let numList: number[] = [1, 2, 3, 8, 5, 6];
 let change = numList.map(function(x) {
   if (x === numList[3]) {
     return (x = 4);
-  }
-  return x;
+  } else return x;
 });
 console.log(change);
