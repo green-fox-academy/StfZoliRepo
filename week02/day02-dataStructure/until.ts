@@ -12,4 +12,4 @@ function cubeNumbers(numbers: number[]): number[] {
         return element ** 3;
     })
     return listOfCubes;
-console.log(cubeNumbers(list));
+    console.log(cubeNumbers(list));
