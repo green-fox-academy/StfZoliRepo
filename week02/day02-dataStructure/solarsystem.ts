@@ -19,7 +19,7 @@ function addSaturn(x: string[]): string[] {
   return x.splice(5, 0, "Saturn");
 }
 addSaturn(planetList);
-console.log([planetList]);
+console.log(planetList);
 // let putSaturn: string = [];
 // console.log(putSaturn(planetList));
 // export = putSaturn;
